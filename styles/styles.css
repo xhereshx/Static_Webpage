@@ -1,9 +1,35 @@
 .NavBar {
   color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid green;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ancorTags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.ancorTag {
+  margin-left: 5%;
+  text-decoration: none;
+  text-align: left;
+  white-space: nowrap;
 }
 
 body {
-  margin-top: 3rem;
-  margin-left: 5rem;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 /*# sourceMappingURL=styles.css.map */

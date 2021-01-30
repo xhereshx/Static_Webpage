@@ -1,3 +1,33 @@
 .NavBar {
   color: orange;
+  display: flex;
+  border: 1px solid green;
+  //   text-align: flex-end;
+  justify-content: space-around;
+  //   flex-direction: column;
 }
+.LogoImg {
+  //   padding-left: 5rem;
+  //   border: 1px solid green;
+}
+.ancorTags {
+  display: flex;
+  flex-direction: row;
+  //   justify-content: space-around;
+  margin-left: 10%;
+  //   border: 1px solid green;
+  //   text-align: flex-end;
+  margin-right: 5%;
+}
+a {
+}
+.ancorTag {
+  margin-left: 5%;
+  text-decoration: none;
+  text-align: left;
+  white-space: nowrap;
+  //   padding-left: 5%;
+}
+// .wrapRepair {
+//   overflow-anchor: none;
+// }

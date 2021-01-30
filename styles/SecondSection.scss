@@ -1,0 +1,38 @@
+@import "Variables";
+
+.ParkingProblems {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  //   justify-content: space-between;
+  // max-width: 30%;
+  .descriptions {
+    flex-direction: row;
+  }
+  .benefits {
+    // display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .pPadding {
+    padding-left: 1rem;
+  }
+  .justifyLeft {
+    justify-content: flex-start;
+  }
+  //   .titlesContent {
+  //     padding-left: 5rem;
+  //     flex-direction: column;
+  //     text-align: center;
+  //     display: flex;
+  //     justify-content: space-between;
+  //   }
+}
+// b{
+//     color: blue;
+// }
+.highlightedBlue {
+  color: $blue;
+}

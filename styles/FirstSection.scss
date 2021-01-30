@@ -1,3 +1,4 @@
+@import "Variables";
 .CarsBackground {
   background-image: url(../img/automotive.png);
   // try normal image
@@ -9,7 +10,7 @@
   //   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  color: white;
+  color: $white;
 }
 
 .CarsText {
@@ -40,6 +41,6 @@
 }
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: $blue;
   border-color: #007bff;
 }

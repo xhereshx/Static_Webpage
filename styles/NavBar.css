@@ -1,5 +1,4 @@
 .NavBar {
-  color: orange;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,5 +24,6 @@
   text-decoration: none;
   text-align: left;
   white-space: nowrap;
+  color: #0000ff;
 }
 /*# sourceMappingURL=NavBar.css.map */

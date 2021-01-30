@@ -1,5 +1,6 @@
+@import "Variables";
+
 .NavBar {
-  color: orange;
   display: flex;
   border: 1px solid green;
   //   text-align: flex-end;
@@ -26,6 +27,7 @@ a {
   text-decoration: none;
   text-align: left;
   white-space: nowrap;
+  color: $blue;
   //   padding-left: 5%;
 }
 // .wrapRepair {

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gBAAgB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,UAAU,EAAE,MAAM;EAClB,eAAe,EAAE,YAAY;CAyB9B;;AA7BD,AAOE,gBAPc,CAOd,aAAa,CAAC;EACZ,cAAc,EAAE,GAAG;CACpB;;AATH,AAUE,gBAVc,CAUd,SAAS,CAAC;EAER,UAAU,EAAE,IAAI;EAChB,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,UAAU;CAC5B;;AAfH,AAgBE,gBAhBc,CAgBd,SAAS,CAAC;EACR,YAAY,EAAE,IAAI;CACnB;;AAlBH,AAmBE,gBAnBc,CAmBd,YAAY,CAAC;EACX,eAAe,EAAE,UAAU;CAC5B;;AAYH,AAAA,gBAAgB,CAAC;EACf,KAAK,ECpCA,OAAO;CDqCb",
+    "sources": [
+        "SecondSection.scss",
+        "Variables.scss"
+    ],
+    "names": [],
+    "file": "SecondSection.css"
+}

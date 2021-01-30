@@ -1,0 +1,44 @@
+@import "Variables";
+
+.ParkingSolution {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  // justify-content: space-between;
+  // max-width: 30%;
+  background-color: $gray;
+  margin-top: 1rem;
+  .SolutionDetails {
+    flex-direction: row;
+  }
+  .left {
+    text-align: left;
+  }
+
+  //   .benefitsThirdSection {
+  //     // display: flex;
+  //     margin-top: 1rem;
+  //     flex-direction: column;
+  //     // justify-content: flex-start;
+  //     max-width: 30%;
+  //   }
+  //   //   .pPadding {
+  //   //     padding-left: 1rem;
+  //   //   }
+  //   .justifyLeft {
+  //     // justify-content: flex-start;
+  //   }
+  //   .highlightedBlue {
+  //     color: $blue;
+  //   }
+}
+.text {
+  max-width: 270px;
+}
+.headerColor {
+  color: $blue;
+}
+.Blueborder {
+  border: solid 3px $blue;
+}

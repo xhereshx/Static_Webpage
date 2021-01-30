@@ -1,0 +1,38 @@
+.ParkingSolution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #e0e0e0;
+  margin-top: 1rem;
+}
+
+.ParkingSolution .SolutionDetails {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ParkingSolution .left {
+  text-align: left;
+}
+
+.text {
+  max-width: 270px;
+}
+
+.headerColor {
+  color: #0000ff;
+}
+
+.Blueborder {
+  border: solid 3px #0000ff;
+}
+/*# sourceMappingURL=ThirdSection.css.map */

@@ -1,0 +1,25 @@
+@import "Variables";
+
+.proofPrague {
+  background-color: $blue;
+  width: 100%;
+  height: 30rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.proofPrague__pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  align-items: center;
+}
+.proofPrague__header {
+  text-align: center;
+}
+.proofPrague__text {
+  max-width: 130px;
+}

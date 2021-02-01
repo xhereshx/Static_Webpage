@@ -1,0 +1,35 @@
+@import "Variables";
+
+.Team {
+  background-color: $blue;
+  width: 100%;
+  height: 35rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-evenly;
+}
+.Team__pictures {
+  display: flex;
+  // justify-content: space-around;
+  flex-direction: row;
+  // padding-left: 5rem;
+  // padding-right: 5rem;
+  justify-content: center;
+
+  align-items: center;
+}
+.Team__header {
+  text-align: center;
+}
+.Team__text {
+  max-width: 300px;
+  text-align: center;
+}
+// .Team__center {
+//   text-align: center;
+// }
+
+.Team__padding {
+  padding-left: 5rem;
+}
